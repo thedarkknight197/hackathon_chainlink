@@ -41,9 +41,7 @@ module.exports = {
         },
         ganache: {
             url: 'http://localhost:8545',
-            accounts: {
-                mnemonic: MNEMONIC,
-            }
+            accounts: ['0x4c7e8aa716916219486c1930763cc1f58cac358da13ababd042581a3206b88c6']
         },
         mainnet: {
             url: MAINNET_RPC_URL,
